@@ -168,3 +168,50 @@ header {
 .promo-link {
   text-decoration: underline;
 }
+
+.hero{
+  background: url(../img/hero-bg.1df44472.jpg);
+  background-size: cover;
+  background-position: 50%;
+  min-height: 330px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay {
+  background: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.hero-content{
+  padding: 0;
+  position: relative;
+  bottom: 80px;
+  left: 60px;
+}
+
+.hero-header {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-subheader {
+  color: #fff;
+  font-size: 1.13rem;
+  line-height: 1.5;
+  margin: 0 0 1rem;
+  max-width: 600px;
+}
