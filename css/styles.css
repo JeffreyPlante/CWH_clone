@@ -541,3 +541,7 @@ footer {
   display: inline-block;
   font-size: inherit;
 }
+
+.sidebar-open {
+  transform: translateX(0);
+}
