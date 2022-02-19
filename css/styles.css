@@ -118,7 +118,7 @@ header {
 
 .nav-item{
     cursor: pointer;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     padding: 0;
     color: #303742;
     display: block;
@@ -513,11 +513,23 @@ footer {
       transition: transform .5s;
       width: 315px;
       z-index: 999;
-      padding: 0;
+      /* padding: 0; */
+    }
+
+    .nav-sidebar-container{
+      flex-direction: column;
+      padding-left: 0;
+      align-items:flex-start;
     }
 
     .mobile-menu {
           display: block!important;
+    }
+    .mobile-anchors {
+      cursor: pointer;
+    padding: 0.8rem 0;
+    display: block;
+    
     }
 }
 
