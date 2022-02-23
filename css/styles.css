@@ -167,7 +167,7 @@ img {
   top: 0;
   left: 0;
   padding: 0.25em 0.75em 1em 0.75em;
-  /* transform: translateX(-315px); */
+  transform: translateX(-315px);
   transition: transform .5s;
   width: 315px;
   z-index: 999;
@@ -241,6 +241,9 @@ img {
     text-transform: uppercase;
 }
 
+.sidebar-open {
+    transform: translateX(0);
+}
 
 @media only screen and (min-width: 1199px) {
   .ai-c-lg {

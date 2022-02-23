@@ -1,6 +1,6 @@
 const openSidebarButton = document.querySelector('#mobile-menu');
 const closeSidebarButton = document.querySelector('#mobile-menu-killswitch')
-const navSidebar = document.querySelector('.nav-flex');
+const navSidebar = document.querySelector('.nav-menu');
 
 
 openSidebarButton.addEventListener('click', ()=> {
