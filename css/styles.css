@@ -159,6 +159,7 @@ img {
 }
 
 .nav-menu {
+  box-sizing: border-box;
   background: #fff;
   display: block;
   height: 100%;
@@ -246,11 +247,29 @@ img {
 }
 
 @media only screen and (min-width: 1199px) {
+
+  .hide {
+    display: none!important;
+  }
+
   .ai-c-lg {
-    
+    align-items: center;
   }
 
   .jc-sb-lg {
+    justify-content: space-between;
 
+  }
+
+  .nav-row {
+    flex-direction: row;
+    position: relative;
+    height: auto;
+    position: relative;
+    transform: translateX(0)
+  }
+  
+  .nav-pad {
+  padding-left: 3rem;
   }
 }
