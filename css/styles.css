@@ -241,27 +241,27 @@ img {
 }
 
 .button {
-      background: #0b6f7b;
-    background-color: #0b6f7b;
-    border-color: #0b6f7b;
-    appearance: none;
-    transition: color .2s ease-in-out,border-color .2s ease-in-out,background-color .2s ease-in-out;
-    background: none;
-    background-color: none;
-    border: 1px solid;
-    border-radius: 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 900;
-    letter-spacing: 2px;
-    min-width: 18em;
-    padding: 1rem 0.75rem;
-    line-height: 2;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
+  background: #0b6f7b;
+  background-color: #0b6f7b;
+  appearance: none;
+  transition: color .2s ease-in-out,border-color .2s ease-in-out,background-color .2s ease-in-out;
+  /* background: none; */
+  /* background-color: none; */
+  border: 1px solid;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  min-width: 18em;
+  padding: 1rem 0.75rem;
+  line-height: 2;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-color: #0b6f7b;
 }
 
 .sidebar-open {
@@ -327,6 +327,9 @@ img {
   display: none;
 }
 
+.sched-button {
+  margin-top: 20px;
+}
 @media only screen and (min-width: 768px) {
   .hero {
     height: 90vh;
