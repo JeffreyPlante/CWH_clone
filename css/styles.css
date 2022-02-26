@@ -73,6 +73,19 @@ img {
   border-style: none;
 }
 
+h2 {
+  color: #303742;
+  font-weight: 700;
+  text-transform: none;
+}
+
+p {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .wrapper {
   box-shadow: 0 0 5px rgb(0 0 0 / 20%);
   margin: 0 auto;
@@ -118,6 +131,21 @@ img {
   flex-wrap: wrap;
 }
 
+.col-gapless {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.columns.col-gapless>.column{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cwh-container .content{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3.2rem 2rem;
+}
 .jc-sb {
   justify-content: space-between;
 }
@@ -329,6 +357,23 @@ img {
 
 .sched-button {
   margin-top: 20px;
+}
+
+.philosophy {
+
+}
+
+.content-header {
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
+
+.cwh-container .content .content-header h2{
+      font-size: 2.25rem;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .hero {
