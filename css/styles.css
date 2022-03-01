@@ -399,13 +399,11 @@ h3{
 }
 
 .card {
-  background: hsla(0,0%,100%,.6);
+  /* background: hsla(0,0%,100%,.6);
   border: 1px solid #ededed;
-  box-shadow: 0 0 9px 2px rgb(0 0 0 / 10%);
+  box-shadow: 0 0 9px 2px rgb(0 0 0 / 10%); */
 }
 
-
-}
 
 .card.column{
   flex: 1 1 auto;
@@ -436,6 +434,24 @@ h3{
   margin: 0 0 5px;
 }
 
+.accordion-button {
+  overflow: visible;
+  width: 0.875em;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.card.column {
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  flex: 0 0 100%;
+}
 
 @media only screen and (min-width: 768px) {
   .hero {
