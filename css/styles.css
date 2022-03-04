@@ -488,7 +488,7 @@ h3{
 }
 
 .accordion-active .accordion-body{
-  max-height: 500px; */
+  max-height: 500px; 
   transition: max-height .3s ease-in;
 }
 
