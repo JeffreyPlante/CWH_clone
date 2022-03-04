@@ -452,6 +452,16 @@ h3{
 .card-body {
   flex: 0 0 100%;
 }
+.accordion-body {
+  max-height: 0;
+  transition: max-height .2s ease-out;
+  overflow: hidden;
+}
+
+.accordion-active .accordion-body{
+  max-height: 500px; 
+  transition: max-height .3s ease-in;
+}
 
 @media only screen and (min-width: 768px) {
   .hero {
@@ -479,18 +489,27 @@ h3{
     margin: 0 0 1rem;
     width: 83.3333333%
   }
+
+  .card.column {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    max-width: 49%
+  }
+
+  .accordion-button {
+    display: none;
+  }
+
+  .accordion .card-header {
+    border-bottom: 1px solid #303742;
+  }
+
+  .accordion-body {
+    max-height: 100%;
+  }
 }
 
-.accordion-body {
-  max-height: 0;
-  transition: max-height .2s ease-out;
-  overflow: hidden;
-}
-
-.accordion-active .accordion-body{
-  max-height: 500px; 
-  transition: max-height .3s ease-in;
-}
 
 
 @media only screen and (min-width: 1199px) {
