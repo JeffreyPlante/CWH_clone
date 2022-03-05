@@ -547,8 +547,27 @@ h3{
     vertical-align: -0.125em;
 }
 
-
+.button.hollow {
+      background: transparent;
+    border: 2px solid #fff;
 }
+
+
+.copywright {
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 1.2rem 0;
+}
+
+.nonprofit {
+  color: #fff;
+}
+
+.privacy-policy {
+  margin-top: 1rem;
+  color: #fff;
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     height: 90vh;
