@@ -537,6 +537,18 @@ h3{
   width: 40px;
   height: 40px;
 }
+
+.socials-icon {
+  width: 0.625;
+  display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+
+}
 @media only screen and (min-width: 768px) {
   .hero {
     height: 90vh;
