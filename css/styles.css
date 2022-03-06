@@ -415,9 +415,9 @@ h3{
 }
 
 .card {
-  /* background: hsla(0,0%,100%,.6);
+  background: hsla(0,0%,100%,.6);
   border: 1px solid #ededed;
-  box-shadow: 0 0 9px 2px rgb(0 0 0 / 10%); */
+  box-shadow: 0 0 9px 2px rgb(0 0 0 / 10%);
 }
 
 
@@ -603,7 +603,7 @@ h3{
   .card.column {
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     max-width: 49%
   }
 
