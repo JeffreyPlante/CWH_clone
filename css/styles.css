@@ -640,18 +640,23 @@ h3{
     justify-content: space-between;
 
   }
-
+  .nav-menu {
+    padding-bottom: 0;
+  }
+  
   .nav-row {
     flex-direction: row;
     position: relative;
     height: auto;
     position: relative;
-    transform: translateX(0)
+    transform: translateX(0);
+    padding: 0.25em, 0.75em, 0, 0.75em;
   }
   
   .nav-pad {
   padding-left: 3rem;
   }
+
 }
 
 /* Join */
