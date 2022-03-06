@@ -5,7 +5,12 @@ const navSidebar = document.querySelector('.nav-menu');
 
 
 openSidebarButton.addEventListener('click', ()=> {
-  navSidebar.classList.add("sidebar-open");
+  if (navSidebar.classList.contains('sidebar-open')) {
+    navSidebar.classList.remove('sidebar-open');
+  }
+  else {
+    navSidebar.classList.add('sidebar-open');
+  }
 });
 
 closeSidebarButton.addEventListener('click', ()=>{
