@@ -233,6 +233,11 @@ h3{
   z-index: 998;
 }
 
+#opacity-layer.opacity-activate {
+  opacity: 1;
+  visibility: visible;
+}
+
 .logo-figure {
   padding: 10px 0 10px;
 }
